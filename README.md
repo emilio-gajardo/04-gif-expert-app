@@ -1,8 +1,19 @@
 # React + Vite
+# App: 04-gif-expert-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Datos de la APP:
+* Curso REACT de cero a experto (Hooks y MERN)
+* Página de Gif
 
-Currently, two official plugins are available:
+## Comandos:
+- Instalar dependencias: ``npm i``
+- Levantar app: ``npm run dev``
+- Ejecutar test: ``npm run test``
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Versiones:
+- React: 18.2.0
+- npm: 10.2.4
+- node: 20.11.10
+- nodemon: 3.0.3
+- vite: 5.1.4
