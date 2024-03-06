@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 /* eslint-disable react/prop-types */
 import { GifItem } from './GifItem.jsx';
 import { useFetchGifs } from '../hooks/useFetchGifs.js'
@@ -22,4 +23,8 @@ export const GifGrid = ({ category }) => {
             </div>
         </>
     );
+}
+
+GifGrid.propTypes = {
+    category: PropTypes.string.isRequired,
 }
